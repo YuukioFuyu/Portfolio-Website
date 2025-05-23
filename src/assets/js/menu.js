@@ -418,16 +418,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // ======== Usage Example ========
     // For Menu 5
-    const indexV5 = document.querySelector('.index-v5');
+    const indexV5 = document.querySelector('.index');
     if (indexV5) {
         initializeUnifiedMenu({
-            menuWrapperSelector: '.menu-wrapper-5',
-            menuToggleBtnSelector: '.menu-toggle-btn-5',
-            menuCloseBtnSelector: '.menu-close-btn-5',
-            menuAreaSelector: '.menu-area-v5',
-            menuLinkSelector: '.main-menu-5 .menu-link',
-            defaultMenuId: 'home-section-v5',
-            indexPageSelector: '.index-v5'
+            menuWrapperSelector: '.menu-wrapper',
+            menuToggleBtnSelector: '.menu-toggle-btn',
+            menuCloseBtnSelector: '.menu-close-btn',
+            menuAreaSelector: '.menu-area',
+            menuLinkSelector: '.main-menu .menu-link',
+            defaultMenuId: 'home-section',
+            indexPageSelector: '.index'
         });
     }
 

@@ -1,75 +1,80 @@
-<div class="menu-wrapper-2 fixed lg:top-10 top-8 lg:left-10 left-0 lg:right-10 right-0 z-50">
-    <!-- Menu Button -->
-    <button
-        class="menu-toggle-btn menu-btn-2 4xl:size-15 xl:size-12 lg:size-10 size-9 flex items-center justify-center flex-col gap-1 bg-primary rounded-full fixed top-4 ltr:right-4 rtl:left-4 z-10 p-3 shadow-md">
-        <span class="menu-bar-1 block w-4 h-[2px] duration-500 bg-dark dark:bg-light"></span>
-        <span class="menu-bar-2 block w-4 h-[2px] duration-500 bg-dark dark:bg-light"></span>
-        <span class="menu-bar-3 block w-4 h-[2px] duration-500 bg-dark dark:bg-light"></span>
-    </button>
-    <!-- Menu items -->
-    <div
-        class="main-menu-2 absolute left-0 top-0 -z-10 flex h-0 w-full flex-col items-center justify-center rounded-xl bg-neutral2 opacity-0 transition-all duration-500 ease-in-out dark:bg-neutral11 overflow-y-auto">
+<!-- menu wrapper -->
+<div
+    class="menu-wrapper-5 fixed top-0 left-0 z-50 bg-dark dark:bg-light w-full h-0 transition-all duration-500 ease-linear overflow-hidden">
 
-        <ul class="menu-items flex flex-col justify-center gap-3 lg:gap-4">
-            <li class="menu-link">
-                <a href="index.html" class="slide-vertical text-h2" data-splitting>
-                    HOME
-                </a>
-            </li>
-            <li class="menu-link">
-                <a href="about-me.html" class="slide-vertical text-h2" data-splitting>
-                    ABOUT ME
-                </a>
-            </li>
-            <li class="menu-item">
-                <button class="slide-vertical text-h2" data-splitting>PORTFOLIO
-                    <span class="menu-icon text-dark dark:text-light"><i class="ph-fill ph-caret-down"></i></span>
-                </button>
-                <ul class="sub-menu flex flex-col gap-2 pl-3 lg:gap-3">
-                    <li class="menu-link">
-                        <a href="portfolio.html" class="slide-horizontal text-h3" data-splitting>
-                            PORTFOLIO
-                        </a>
-                    </li>
-                    <li class="menu-link">
-                        <a href="portfolio-details.html" class="slide-horizontal text-h3" data-splitting>
-                            PORTFOLIO DETAILS
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-link">
-                <a href="services.html" class="slide-vertical text-h2" data-splitting>
-                    SERVICES
-                </a>
-            </li>
-            <li class="menu-link">
-                <a href="resume.html" class="slide-vertical text-h2" data-splitting>
-                    RESUME
-                </a>
-            </li>
-            <li class="menu-item">
-                <button class="slide-vertical text-h2" data-splitting>ARTICLE
-                    <span class="menu-icon text-dark dark:text-light"><i class="ph-fill ph-caret-down"></i></span>
-                </button>
-                <ul class="sub-menu flex flex-col gap-2 pl-3 lg:gap-3">
-                    <li class="menu-link">
-                        <a href="articles.html" class="slide-horizontal text-h3" data-splitting>
-                            ARTICLE
-                        </a>
-                    </li>
-                    <li class="menu-link">
-                        <a href="blog-details.html" class="slide-horizontal text-h3" data-splitting>
-                            ARTICLE DETAILS
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            <li class="menu-link">
-                <a href="contact.html" class="slide-vertical text-h2" data-splitting>
-                    CONTACT ME
-                </a>
-            </li>
-        </ul>
-    </div>
+    <!-- menu close btn -->
+    <button
+        class="menu-close-btn-5 ml-auto mt-5 mr-5 flex items-center justify-center h-9 w-9 rounded-full bg-primary text-light dark:text-dark">
+        <i class="hgi-stroke hgi-cancel-01"></i>
+    </button>
+    <!-- menu -->
+
+    <ul class="main-menu-5 flex flex-col justify-center h-full gap-6 p-6">
+        <li>
+            <a href="javascript:void(0)"
+                class="menu-link w-full h-full flex items-center justify-between border-b border-neutral3/40 dark:border-neutral11"
+                data-section-id="home-section">
+                <span class="text-xl text-light dark:text-dark">HOME</span>
+                <span
+                    class="f-center lg:size-9 size-8 lg:text-lg text-base text-dark dark:text-light bg-light dark:bg-dark rounded-full">
+                    <i class="hgi-stroke hgi-arrow-up-right-01"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)"
+                class="menu-link w-full h-full flex items-center justify-between border-b border-neutral3/40 dark:border-neutral11"
+                data-section-id="about-section">
+                <span class="text-xl text-light dark:text-dark">ABOUT</span>
+                <span
+                    class="f-center lg:size-9 size-8 lg:text-lg text-base text-dark dark:text-light bg-light dark:bg-dark rounded-full">
+                    <i class="hgi-stroke hgi-arrow-up-right-01"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)"
+                class="menu-link w-full h-full flex items-center justify-between border-b border-neutral3/40 dark:border-neutral11"
+                data-section-id="services-section">
+                <span class="text-xl text-light dark:text-dark">SERVICES</span>
+                <span
+                    class="f-center lg:size-9 size-8 lg:text-lg text-base text-dark dark:text-light bg-light dark:bg-dark rounded-full">
+                    <i class="hgi-stroke hgi-arrow-up-right-01"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)"
+                class="menu-link w-full h-full flex items-center justify-between border-b border-neutral3/40 dark:border-neutral11"
+                data-section-id="portfolio-section">
+                <span class="text-xl text-light dark:text-dark">PORTFOLIO</span>
+                <span
+                    class="f-center lg:size-9 size-8 lg:text-lg text-base text-dark dark:text-light bg-light dark:bg-dark rounded-full">
+                    <i class="hgi-stroke hgi-arrow-up-right-01"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)"
+                class="menu-link w-full h-full flex items-center justify-between border-b border-neutral3/40 dark:border-neutral11"
+                data-section-id="resume-section">
+                <span class="text-xl text-light dark:text-dark">RESUME</span>
+                <span
+                    class="f-center lg:size-9 size-8 lg:text-lg text-base text-dark dark:text-light bg-light dark:bg-dark rounded-full">
+                    <i class="hgi-stroke hgi-arrow-up-right-01"></i>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void(0)"
+                class="menu-link w-full h-full flex items-center justify-between border-b border-neutral3/40 dark:border-neutral11"
+                data-section-id="contact-section">
+                <span class="text-xl text-light dark:text-dark">CONTACT</span>
+                <span
+                    class="f-center lg:size-9 size-8 lg:text-lg text-base text-dark dark:text-light bg-light dark:bg-dark rounded-full">
+                    <i class="hgi-stroke hgi-arrow-up-right-01"></i>
+                </span>
+            </a>
+        </li>
+    </ul>
 </div>
